@@ -1,15 +1,18 @@
 {
-  "name": "cubic-spline",
-  "version": "3.0.3",
+  "name": "cubic-spline-ts",
+  "version": "3.0.4",
   "description": "spline interpolation",
-  "main": "index.js",
+  "source": "src/index.ts",
+  "main": "dist/cubic-spline-ts.js",
+  "umd:main": "dist/cubic-spline-ts.umd.js",
   "scripts": {
     "test": "node test.js",
-    "lint": "prettier **/*.js **/*.json --write"
+    "lint": "prettier **/*.js **/*.json --write",
+    "build": "microbundle"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/morganherlocker/cubic-spline.git"
+    "url": "https://github.com/gnlow/cubic-spline-ts.git"
   },
   "keywords": [
     "cubic",
@@ -22,10 +25,11 @@
   "author": "morganherlocker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/morganherlocker/cubic-spline/issues"
+    "url": "https://github.com/gnlow/cubic-spline-ts/issues"
   },
-  "homepage": "https://github.com/morganherlocker/cubic-spline",
+  "homepage": "https://github.com/gnlow/cubic-spline-ts",
   "devDependencies": {
+    "microbundle": "^0.12.0-next.8",
     "tape": "^3.0.3"
   }
 }
