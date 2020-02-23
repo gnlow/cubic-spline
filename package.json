@@ -1,9 +1,9 @@
 {
   "name": "cubic-spline-ts",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "spline interpolation",
   "source": "src/index.ts",
-  "main": "dist/cubic-spline-ts.js",
+  "main": "dist/cubic-spline-ts.modern.js",
   "umd:main": "dist/cubic-spline-ts.umd.js",
   "module": "dist/cubic-spline-ts.esm.js",
   "types": "dist/index.d.ts",
